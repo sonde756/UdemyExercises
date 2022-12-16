@@ -8,11 +8,19 @@ A entrada contém 2 valores inteiros.
 Saída
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
 */
-int A, B, X;
+using System;
 
-A = int.Parse(Console.ReadLine());
-B = int.Parse(Console.ReadLine());
+class beecrowd
+{
 
-X = A + B;
+    static void Main(string[] args)
+    {
+        int A = Int32.Parse(System.Console.ReadLine().Trim());
+        int B = Int32.Parse(System.Console.ReadLine().Trim());
 
-Console.WriteLine("X="+X);
+        int X = A + B;
+
+        Console.Write("X = {0}\n", X);
+    }
+
+};
