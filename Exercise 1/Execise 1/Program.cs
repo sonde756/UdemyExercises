@@ -24,6 +24,6 @@ internal class Program
         Console.WriteLine($"Preço por M²:R$200. Valor total do terreno: {(area * precoTerro).ToString("F2", CultureInfo.InvariantCulture)}");
 
 
-
+        
     }
 }
